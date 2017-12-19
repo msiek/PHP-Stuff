@@ -1,0 +1,2 @@
+[19-Dec-2017 14:55:45 America/Chicago] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home3/happyte8/public_html/scsmiles/untitled/AddTalent.php on line 45
+[19-Dec-2017 14:58:36 America/Chicago] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home3/happyte8/public_html/scsmiles/untitled/AddTalent.php on line 45
