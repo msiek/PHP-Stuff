@@ -19,7 +19,6 @@
                           AND ClientPhone like CONCAT('%', :theclient, '%')
                           AND PromotionalConsideration like CONCAT('%', :thepromo, '%')
                           AND InvestmentAmount like CONCAT('%', :theinvest, '%')
-                          AND CLIENT.EmployeeID = :theemployee
                           AND CLIENT.EmployeeID = EMPLOYEE.EmployeeID";
         } else {
             $sqlselect = "SELECT CLIENT.*, EMPLOYEE.EmployeeName FROM 
@@ -62,25 +61,25 @@
             <tr>
                 <th>Business Name</th>
                 <td><input type = "text" name = "businessname" id = "businessname"
-                    value = "<?php echo $formfield['myBusinessName'] ?>"</td>
+                    value = "<?php echo $formfield['myBusinessName']; ?>"</td>
             </tr>
 
             <tr>
                 <th>Client Phone</th>
                 <td><input type = "text" name = "clientphone" id = "clientphone"
-                           value = "<?php echo $formfield['myClientPhone'] ?>"</td>
+                           value = "<?php echo $formfield['myClientPhone']; ?>"</td>
             </tr>
 
             <tr>
                 <th>Promotional Consideration</th>
                 <td><input type = "text" name = "promo" id = "promo"
-                           value = "<?php echo $formfield['myPromo'] ?>"</td>
+                           value = "<?php echo $formfield['myPromo']; ?>"</td>
             </tr>
 
             <tr>
                 <th>Investment Amount</th>
                 <td><input type = "text" name = "invest" id = "invest"
-                           value = "<?php echo $formfield['myInvest'] ?>"</td>
+                           value = "<?php echo $formfield['myInvest']; ?>"</td>
             </tr>
 
             <tr>
